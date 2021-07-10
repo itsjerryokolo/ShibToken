@@ -1,0 +1,5 @@
+type Contract @entity {
+  id: ID! #txhash
+  name: String!
+  totalSupply: BigInt!
+}
